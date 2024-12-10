@@ -84,6 +84,12 @@ image = pipe(
 ```
 
 
+## License
+
+NitroSD-Realism is released under [cc-by-nc-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en), following its base model *DMD2*.
+
+NitroSD-Vibrant is released under [openrail++](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md).
+
 
 ## Citation 
 
