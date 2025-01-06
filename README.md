@@ -21,7 +21,7 @@ We introduce NitroFusion, a fundamentally different approach to single-step diff
 
 Please check out our [**Hugging Face Model**](https://huggingface.co/ChenDY/NitroFusion).
 
-Also have fun with the [**Online Demo**](https://huggingface.co/spaces/ChenDY/NitroFusion_1step_T2I)!
+Also have fun with the [**ComfyUI**](https://github.com/ChenDarYen/ComfyUI-TimestepShiftModel/tree/main) or [**Online Demo**](https://huggingface.co/spaces/ChenDY/NitroFusion_1step_T2I)!
 
 ## Usage
 
@@ -82,6 +82,10 @@ image = pipe(
     guidance_scale=0,
 ).images[0]
 ```
+
+## ComfyUI Usage
+
+Please refer to [https://github.com/ChenDarYen/ComfyUI-TimestepShiftModel/tree/main](https://github.com/ChenDarYen/ComfyUI-TimestepShiftModel/tree/main) for more details.
 
 
 ## License
