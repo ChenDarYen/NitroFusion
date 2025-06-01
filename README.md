@@ -103,7 +103,7 @@ If you find NitroFusion is useful or relevant to your research, please kindly ci
 @article{chen2024nitrofusionhighfidelitysinglestepdiffusion,
     title={NitroFusion: High-Fidelity Single-Step Diffusion through Dynamic Adversarial Training},
     author={Dar-Yen Chen and Hmrishav Bandyopadhyay and Kai Zou and Yi-Zhe Song},
-    booktitle={arXiv preprint arxiv:2412.02030},
+    journal={arXiv preprint arxiv:2412.02030},
     year={2024}
 }
 ```
