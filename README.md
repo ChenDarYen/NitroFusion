@@ -9,6 +9,11 @@
 
 ![](./assets/banner.jpg)
 
+## News
+
+**2026-11-02:** 🤗 Our team released [NitroFusion2](https://chendaryen.github.io/NitroFusion2.github.io/) for one- and two-step generation — the [checkpoint](https://huggingface.co/ChenDY/NitroFusion2), [ComfyUI workflows](https://github.com/ChenDarYen/NitroFusion2#comfyui) and an [online demo](https://huggingface.co/spaces/ChenDY/NitroFusion2) are all available!
+
+
 ## Abstract
 
 We introduce NitroFusion, a fundamentally different approach to single-step diffusion that achieves high-quality generation through a dynamic adversarial framework. While one-step methods offer dramatic speed advantages, they typically suffer from quality degradation compared to their multi-step counterparts. Just as a panel of art critics provides comprehensive feedback by specializing in different aspects like composition, color, and technique, our approach maintains a large pool of specialized discriminator heads that collectively guide the generation process. Each discriminator group develops expertise in specific quality aspects at different noise levels, providing diverse feedback that enables high-fidelity one-step generation. Our framework combines: (i) a dynamic discriminator pool with specialized discriminator groups to improve generation quality, (ii) strategic refresh mechanisms to prevent discriminator overfitting, and (iii) global-local discriminator heads for multi-scale quality assessment, and unconditional/conditional training for balanced generation. Additionally, our framework uniquely supports flexible deployment through bottom-up refinement, allowing users to dynamically choose between 1-4 denoising steps with the same model for direct quality-speed trade-offs. Through comprehensive experiments, we demonstrate that NitroFusion significantly outperforms existing single-step methods across multiple evaluation metrics, particularly excelling in preserving fine details and global consistency.
